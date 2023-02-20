@@ -1,0 +1,66 @@
+project:
+  type: website
+  #output-dir: docs # command to allow publishing using docs (https://quarto.org/docs/publishing/github-pages.html)
+
+website:
+
+  title: "Biologia della Conservazione"
+  reader-mode: true
+  page-navigation: true
+  description: ""
+  site-url: https://giulianocolosimo.github.com
+  repo-url: https://github.com/quarto-dev/quarto-demo
+  repo-actions: [issue]
+  open-graph:
+    locale: en_US
+  
+  navbar:
+    search: true
+    right:
+      - text: "Home"
+        href: home.qmd
+
+  sidebar:
+    logo: "./figures/avatar.jpg"
+    pinned: false
+    align: center
+    style: "docked"
+    background: light
+    collapse-level: 2
+    contents:
+      - section: "Course information"
+        title: "Course information"
+        contents: 
+          - href: home.qmd
+            text: "Overview"
+          - href: course_syllabus.qmd
+            text: "Syllabus"
+          - href: course_schedule.qmd
+            text: "Schedule"
+      - section: "Classes"
+        title: "Classes"
+        contents: 
+          #- href: ./classes/class_1.html
+          #  text: "Class 1"
+          #- href: ./classes/class_2.html
+          #  text: "Class 2"
+
+    tools:
+      - icon: envelope
+        url: "mailto:giuliano.colosimo@protonmail.com"
+
+  page-footer:
+    left: "© Copyright 2023 Giuliano Colosimo"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/). Inspiration for this site comes from [here](https://www.mm218.dev)"
+    background: dark
+    
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    mainfont: "Atkinson Hyperlegible"
+    code-copy: true
+    code-overflow: wrap
+    toc: true
