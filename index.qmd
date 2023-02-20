@@ -1,0 +1,10 @@
+---
+title: "Biologia della Conservazione"
+author: Giuliano Colosimo
+date: "`r Sys.Date()`"
+---
+
+# Introduction
+
+Welcome to class! These web-pages contain all the information you need to accomplish your class work for  **Biologia della Conservazione**.
+

@@ -1,0 +1,262 @@
+---
+title: "Biologia della Conservazione"
+subtitle: "Class 2 - Biodiversity"
+# author: "Dr. Giuliano Colosimo"
+footer:  "Dr. Giuliano Colosimo"
+# logo: ../figures/anmtbc_logo.png
+format: 
+  revealjs:
+    width: 1600
+    height: 900 
+    theme: slides.scss
+    multiplex: true
+    transition: fade
+    slide-number: true
+    preview-links: true
+    chalkboard: 
+      boardmarker-width: 5
+editor: visual
+from: markdown+emoji
+execute:
+  freeze: auto
+editor_options: 
+  chunk_output_type: console
+bibliography: /Users/giulianocolosimo/Dropbox/manuscripts/literature/bibtex/comprehensive_database.bib
+csl: /Users/giulianocolosimo/Dropbox/manuscripts/literature/bibtex/apa_5th_edition.csl
+citation_package: biblatex
+citecolor: "red"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library("readxl")
+
+```
+
+## Topics
+
+::: columns
+::: {.column width="50%"} 
+
+- [Conservation biology]{style="color: LimeGreen;"}
+- [Biodiversity]{style="color: red;"}
+- [Biodiversity through time]{style="color: GhostWhite;"}
+    - [Extinctions and the anthropocene]{style="color: GhostWhite;"}
+- [Variation in natural populations]{style="color: GhostWhite;"}
+    - [Genetic]{style="color: GhostWhite;"}
+    - [Phenotypic]{style="color: GhostWhite;"}
+- [Conservation genetics and genomic]{style="color: GhostWhite;"}
+- [Conservation of populations]{style="color: GhostWhite;"}
+
+:::
+
+::: {.column width="50%"}
+
+- [Population viability analysis]{style="color: GhostWhite;"}
+- [Conservation and climate change]{style="color: GhostWhite;"}
+- [Conservation economics]{style="color: GhostWhite;"}
+
+:::
+:::
+
+
+# Biodiversity
+
+---
+
+## Changing paradigm
+
+- Biodiversity loss is a systemic problem embedded in the normal ways the human species lives on planet earth!
+
+> But now there is something new, never before seen on Earth during its billions of years of evolving species. Humans have begun to set conservation of the Biodiversity on Earth as a moral and social good. (Holmes Rolston III, 2012)
+
+- Conservation biology origins were driven by studies and discoveries in basic sciences such as genetics and population dynamics, but soon became manifest in applied sciences like forestry, fisheries, wildlife management, and more.
+
+- The extinction crisis created an urgency to develop an alternative concept to that of endangered species. That concept was biodiversity! [@VanDyke2020]
+
+---
+
+## Why should we care about Biodiversity?
+
+- A more diverse combination of species (biological community)..
+    - ... produces a more productive environment
+    - ... produces a more resistant environment
+    - ... produces a more resilient environment
+    - ... produces more stable ecosystem processes
+    
+- The ESA (Ecological Society of America) concluded that maintaining biodiversity is a safeguard against risk resulting from changes in environmental conditions because it extends the productive use of a site's resources over time and provides an effective way to provide multiple goods and services. [@Hooper2005]
+
+> Biodiversity is essential for food security and nutrition and offers key options for sustainable livelihoods (Convention on Biological Diversity,  [https://www.cbd.int](https://www.cbd.int)). 
+
+---
+
+![Multifunctional ecosystem require many species. After @Duffy2008](../figures/class_2_duffy2008.png)
+
+---
+
+## What are ecosystem services?
+
+::: columns
+::: {.column width=50%}
+- Provisioning services
+    - Food
+    - Energy
+    - Structural materials
+- Regulating services
+    - Reduce the severity of environmental events
+- Supporting services
+    - Provision of physical bodies to be used for essential services
+        - Oxygen produced by plants
+        - Soil to grow crops
+:::
+
+::: {.column width=50%}
+- Cultural services
+    - Recreational activities
+    - Intellectual and spiritual activities
+    - Knowledge acquisition
+:::
+:::
+
+---
+
+![Roles of host species in the transmission of Lyme disease in the northeastern USA. After @Keesing2010](../figures/class_2_2_keesing2010.png)
+---
+
+## What is biodiversity?
+
+::: columns
+::: {.column width="50%"}
+
+- The structural and functional variety of life forms at genetic, population community and ecosystem levels [@Sandlund1992].
+
+    - Not simply a collection of multiple species, but an array of the biological variety.
+    - This biological variety can be investigated at multiple levels
+
+- Genes and their variety of forms (alleles) are the most fundamental units at which biodiversity can be measured, and it is the basis for all other measures of diversity.
+
+:::
+
+::: {.column width="50%"}
+
+```{mermaid}
+graph TD
+    B(Genes) -->  A[Biodiversity]
+    C(Species) ---> A
+    D(Habitats) ----> A
+    E(Landscapes) -----> A
+    F(Ecosystems) ------> A
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+```
+
+:::
+:::
+---
+
+## How to measure Biodiversity?
+
+### We first need to define species.
+
+:::{.callout-note}
+
+Although as an applied concept we can measure it at multiple levels, the most widely used currency to measure and compare biodiversity across sites is SPECIES!
+
+:::
+
+. . .
+
+| Typological Species Concept | Evolutionary Species Concept | Biological Species Concept | Phylogenetic Species Concept |
+|:---------------------------:|:----------------------------:|:--------------------------:|:----------------------------:|
+| Greeks | Darwin | [@Mayr1969] | DNA based |
+. . .
+
+:::{.callout-warning}
+
+There are at least 26 different species concept used in modern science [@Frankham2012]. None of them is immune to drawbacks!
+
+:::
+
+---
+
+> Our results show a marked difference, with surveys based on a phylogenetic species concept showing more species (48%) and an associated decrease in population size and range. We discuss the serious consequences of this trend for conservation, including an apparent change in the number of endangered species, potential political fallout, and the difficulty of deciding what should be conserved. [@Agapow2004]
+
+- The concept of Evolutionary Significant Units (ESU) aims at preserving both evolutionary potential and organisms. ESUs are based on criteria that are associated to genetic variation between and within populations [@Moritz1994].
+
+- Management Units (MU)
+
+---
+
+![[*Cyclura* diversity in the West Indies]{style="text-align: center;"}](../figures/class_2_3_cycluradiv.png){fig-align="center"}
+
+---
+ 
+## Alpha diversity
+
+- The diversity of species within an ecological community
+
+### Species richness and Evennes
+
+- The number of species present on each site
+- Shannon Index 
+
+$$
+H = - \sum_i \ p_i \ ln(p_i), \ \ (i=1, 2, 3,...,s), \ \ (0 \le H^{'}\le \infty)
+$$
+
+### Beta diversity
+
+- Whittaker
+
+$$
+S/\alpha-1
+$$
+
+### Gamma diversity
+
+$$
+dS/dD[(g+l)/2]
+$$
+
+# Widespread distribution VS restricted distribution
+
+# Biodiversity distribution
+
+Plants and vertebrates show an increase in the number of species from temperate to tropical latitudes [@Reid1989; @Huston1994].
+
+---
+
+
+# References
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

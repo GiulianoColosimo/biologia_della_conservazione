@@ -1,0 +1,101 @@
+---
+title: "Conservation"
+subtitle: "Class 1"
+author: "Dr. Giuliano Colosimo"
+format: 
+  beamer:
+    theme: Cinghio
+    keep-tex: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library("readxl")
+
+```
+
+## Class overview
+
+- Course overview
+- 
+- 
+- [@Allendorf2013]
+- 
+- 
+
+# Course overview
+
+------------------------------------------------------------------------
+
+# Conservation
+
+------------------------------------------------------------------------
+
+First International Conference on Conservation Biology - 1978 San Diego Zoo Animal Park
+
+Society for Conservation Biology (SCB) May 8 1985
+
+"The society is a response by professionals, mostly biological and social scientists, managers and administrators to the biological diversity crisis that will reach a crescendo inn the first half of the 20th century. We assume that we are in time, and that by joining together with each other and with other well-intentioned persons and groups, the worst biological disasters of the last 65 million years can be averted...Although we have varying philosophies, we share a faith in ourselves, as a species and as individuals, that we are equal to the challenge...For these reasons we join together in a professional alliance in the service of each other, but also in the service of the less articulate members of our evolutionary tree." (Michael Soulé)
+
+------------------------------------------------------------------------
+
+```{r cons_num, echo=FALSE, eval=FALSE}
+cons_num <- read_xlsx("../data/number_of_pubs_with_conservation.xlsx", 1, col_names = T)
+plot(cons_num$year, cons_num$num_of_pubs, type = "l", lwd = 2, col = "red",
+     xlab = "Years", ylab = "Num. of pubs")
+```
+
+![Something](../figures/class_1_num_of_pubs.png)
+
+------------------------------------------------------------------------
+
+The true test: Will conservation biology be able to preserve biodiversity?
+
+(Gibbons 1992)
+
+------------------------------------------------------------------------
+
+Conservation biology is not defined by a discipline, but by its goal. Ecologists, geneticists, zoologists, botanists and so forth do not stop their job and career, but share a goal. (Ehrenfeld 1992)
+
+A crisis discipline (Soulé 1985) providing tools to preserve biodiversity.
+
+Scientifically valid presentation of biological problems that are relevant to the life of modern man (Ehrenfeld 1970)
+
+# The origin of conservation
+
+------------------------------------------------------------------------
+
+The history of conservation is one of ethical conflict as well as scientific discoveries.
+
+Management not equal Conservation
+
+------------------------------------------------------------------------
+
+Although humans have managed the natural resources and nature for millennia they have started to conserve them only as they have embraced their intrinsic value, that they are good in and of themselves.
+
+What actions can we undertake that are good for nature? This is the beginning of conservation.
+
+------------------------------------------------------------------------
+
+- Conservation as expression of privilege
+- Conservation as right relationship with Nature
+- Conservation as knowledge
+- Conservation as the protection of landscape
+- Conservation as moral mission
+- Conservation as utilitarian purpose
+- Conservation as preservation of culture and livelihood
+
+# Global conservation
+
+------------------------------------------------------------------------
+
+- UN
+- IUCN
+
+# Conservation Biology
+
+------------------------------------------------------------------------
+
+![Something](../figures/class_1_consbio_and_conssciece.jpeg)
+
+# References

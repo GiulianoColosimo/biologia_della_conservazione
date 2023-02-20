@@ -1,0 +1,71 @@
+---
+title: "Biologia della Conservazione"
+subtitle: "Class 3 - Extinction and the anthropocene"
+# author: "Dr. Giuliano Colosimo"
+footer:  "Dr. Giuliano Colosimo"
+# logo: ../figures/anmtbc_logo.png
+format: 
+  revealjs:
+    width: 1600
+    height: 900 
+    theme: slides.scss
+    multiplex: true
+    transition: fade
+    slide-number: true
+    preview-links: true
+    chalkboard: 
+      boardmarker-width: 5
+editor: visual
+from: markdown+emoji
+execute:
+  freeze: auto
+editor_options: 
+  chunk_output_type: console
+bibliography: /Users/giulianocolosimo/Dropbox/manuscripts/literature/bibtex/comprehensive_database.bib
+csl: /Users/giulianocolosimo/Dropbox/manuscripts/literature/bibtex/apa_5th_edition.csl
+citation_package: biblatex
+citecolor: "red"
+---
+
+## Topics
+
+::: columns
+::: {.column width="50%"} 
+
+- [Conservation biology]{style="color: LimeGreen;"}
+- [Biodiversity]{style="color: LimeGreen;"}
+- [Biodiversity through time]{style="color: red;"}
+    - [Extinctions and the anthropocene]{style="color: red;"}
+- [Variation in natural populations]{style="color: GhostWhite;"}
+    - [Genetic]{style="color: GhostWhite;"}
+    - [Phenotypic]{style="color: GhostWhite;"}
+- [Conservation genetics and genomic]{style="color: GhostWhite;"}
+- [Conservation of populations]{style="color: GhostWhite;"}
+
+:::
+
+::: {.column width="50%"}
+
+- [Population viability analysis]{style="color: GhostWhite;"}
+- [Conservation and climate change]{style="color: GhostWhite;"}
+- [Conservation economics]{style="color: GhostWhite;"}
+
+:::
+:::
+
+---
+
+![Geological Time Scale. Downloaded from [www.geosociety.org](www.geosociety.org)](../figures/class_3_1_geots.png)
+
+---
+
+![Six main extinction events](../figures/class_3_2_exteven.png)
+
+---
+
+# How long does a species persist?
+
+---
+
+# New species
+

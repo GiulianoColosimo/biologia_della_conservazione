@@ -1,0 +1,84 @@
+---
+title: "Syllabus"
+author: Giuliano Colosimo
+date: "`r Sys.Date()`"
+bibliography: /Users/giulianocolosimo/Dropbox/manuscripts/literature/bibtex/comprehensive_database.bib
+csl: /Users/giulianocolosimo/Dropbox/manuscripts/literature/bibtex/apa_5th_edition.csl
+citation_package: biblatex
+citecolor: "red"
+---
+
+## General information
+
+This is a course for master level students enrolled in the "Biologia Evoluzionistica, Ecologia e Antropologia Applicata" degree at the University of Rome Tor Vergata. It is worth **6 CFU** for a total of 48 hours to be administered in person (or remotely, depending on the evolution of the pandemic) during the second semester of academic year 2022/2023.
+
+
+```{r, echo=F, eval=F}
+
+#Below is the tentative schedule for each class
+
+#|          | Day       | Time                          | Location   |
+#|----------|-----------|-------------------------------|------------|
+#| Lectures | Mon & Thu | 11:00 - 13:00 & 16:00 - 18:00 | Aula pesca |
+
+
+```
+
+
+
+
+::: callout-important
+Attendance is mandatory!!
+:::
+
+## Course language
+
+The course will be thought in Italian unless international students are present. In this latter case the course will be thought in English. All the material and the literature used (including this website!) will be in English.
+
+## Pre-requisites
+
+Students participating to this class should have a good knowledge of zoology, ecology, population biology,  genetics, and molecular biology.
+
+## Textbook
+
+There is no mandatory textbook to buy. All students are required to attend classes and take notes during lessons. The material covered in class will be complemented by the scientific literature provided by the professor. 
+
+## Additional Resources
+
+If you are interested in buying something to deepen your studies some good books are:
+
+- Introduction to conservation genetics [@Frankham2010]
+- Conservation Biology [@VanDyke2020]
+- Conservation and the Genomics of Populations [@Allendorf2022]
+
+## Learning objectives
+
+The course aims to provide students with an overview of the problems,  techniques of analysis and identification of solutions related to  conservation of Biodiversity, especially at the level of population and species.
+
+Increased knowledge on the nature of problems, development of synthetic capacities and t transversal thinking through exposure to multidisciplinary approaches.
+
+By discussing the genetic basis of adaptation, the relationship between population size and evolutionary potential, population biology, the student develops autonomy in the process of understanding and evaluation of different approaches and methods,  consolidating the awareness that conservation biology is a crisis discipline that requires specific analytical skills to guide appropriate interventions.
+
+Development of critical skills and evaluation of diversified decision-making processes
+
+Students develop a professional language and communication skills through a continuous confrontation with the teacher and interventions during frontal lessons. Additionally, students are guided in the understanding of the discipline also by  accessing to primary literature in English. The process of development such skills is monitored by written periodical checks, with open questions.
+
+The guided reading to the primary literature and the open discussion during class promote student's ability to update and deepen his/her knowledge autonomously, through a better research and evaluation of sources. The transversal thinking helps students to seek and establish interdisciplinary links and develop a broad vision.
+
+## Class evaluation
+
+There will be 2 mid-term exams (see schedule page for the dates). All students have to take the midterm exams. At the end of the course, after the second mid term the student can choose to keep the grade and record it or disregard it and try for a better grade in the final written evaluation.
+
+## Meeting hurs
+
+Each student is welcome and encouraged to contact me by e-mail with questions and doubts. My office hours are between 10:00 and 12:00 every Thursday. My office is number 14, located on the first floor of the main building at "Laboratori di Ecologia Sperimentale ed Acquacoltura". 
+
+::: callout-tip
+It is always a good idea to e-mail me before coming to the office, to prevent overcrowding.
+:::
+
+## Students with disabilities
+
+Please, let me know if you require special accommodations to follow this class.
+
+# References

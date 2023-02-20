@@ -1,6 +1,6 @@
 project:
   type: website
-  #output-dir: docs # command to allow publishing using docs (https://quarto.org/docs/publishing/github-pages.html)
+  output-dir: docs # command to allow publishing using docs (https://quarto.org/docs/publishing/github-pages.html)
 
 website:
 
@@ -18,7 +18,7 @@ website:
     search: true
     right:
       - text: "Home"
-        href: home.qmd
+        href: index.qmd
 
   sidebar:
     logo: "./figures/avatar.jpg"
@@ -31,7 +31,7 @@ website:
       - section: "Course information"
         title: "Course information"
         contents: 
-          - href: home.qmd
+          - href: index.qmd
             text: "Overview"
           - href: course_syllabus.qmd
             text: "Syllabus"

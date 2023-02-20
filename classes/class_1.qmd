@@ -1,0 +1,355 @@
+---
+title: "Biologia della Conservazione"
+subtitle: "Class 1 - Conservation Biology"
+# author: "Dr. Giuliano Colosimo"
+footer:  "Dr. Giuliano Colosimo"
+#logo: ../figures/anmtbc_logo.png
+format: 
+  revealjs:
+    width: 1600
+    height: 900 
+    theme: slides.scss
+    multiplex: true
+    transition: fade
+    slide-number: true
+    preview-links: true
+    chalkboard: 
+      boardmarker-width: 5
+editor: visual
+from: markdown+emoji
+execute:
+  freeze: auto
+editor_options: 
+  chunk_output_type: console
+bibliography: /Users/giulianocolosimo/Dropbox/manuscripts/literature/bibtex/comprehensive_database.bib
+csl: /Users/giulianocolosimo/Dropbox/manuscripts/literature/bibtex/apa_5th_edition.csl
+citation_package: biblatex
+citecolor: "red"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library("readxl")
+library("tidyverse")
+library("plotly")
+library("reshape2")
+```
+
+## Course overview
+
+- This is a course for master level students enrolled in the "Biologia Evoluzionistica, Ecologia e Antropologia Applicata" degree at the University of Rome Tor Vergata. It is worth 6 CFU for a total of 48 hours to be administered in person.
+
+- Classes are on Monday (11:00-13:00) and Thursday (16:00-18:00) in "Aula Pesca" (Laboratori di Ecologia Sperimentale ed Acquacoltura).
+
+- The course will be thought in Italian unless international students are present. In this latter case the course will be thought in English. All the material and the literature used will be in English.
+
+- Check the website and your e-mail periodically for information. The website for this class is hosted at [www.somethingsomething.com](www.somethingsomething.com)
+
+- No mandatory textbook. You need to be in class, follow, participate and take notes. I will try to make the class as interactive as possible. I need you to talk to me!!! 
+
+
+------------------------------------------------------------------------
+
+## Course evaluation
+
+- By the end of the course you should be able to identify, understand, analyse and solve issues related to the   conservation of biological diversity, especially at the level of population and species.
+
+- Two mid term exams (esoneri)! The first mid term will cover the material studied up until the exam date. The second mid term will cover the new material thought after the first mid term. At the end, if you are satisfied with the average of the votes you can keep the grade. If you are not satisfied you can do the final written exam which will cover everything we did in class.
+
+- Participation to class will count towards your final evaluation!
+
+------------------------------------------------------------------------
+
+## Topics
+
+::: columns
+::: {.column width="50%"} 
+- Conservation biology
+- Biodiversity
+    - What is it
+    - Alpha, Beta and Gamma diversity
+- Biodiversity through time
+    - Extinctions and the anthropocene
+    - Extinction rates
+    - Speciation rates
+- Variation in natural populations
+    - Genetic
+    - Phenotypic
+:::
+
+::: {.column width="50%"} 
+- Conservation genetics and genomic
+- Conservation of populations
+    - Translocations
+    - Head start programs
+- Population viability analysis
+- Conservation and climate change
+- Conservation economics
+:::
+:::
+
+## Resources
+
+- Introduction to conservation genetics [@Frankham2010]
+- Conservation Biology [@VanDyke2020]
+- Conservation and the Genomics of Populations [@Allendorf2022]
+- Literature I will provide every class
+- You are encouraged to contact me by e-mail with questions and doubts or come to my office.
+
+## Topics 
+
+::: columns
+::: {.column width="50%"} 
+
+- [Conservation biology]{style="color: red;"}
+- [Biodiversity]{style="color: GhostWhite;"}
+- [Biodiversity through time]{style="color: GhostWhite;"}
+    - [Extinctions and the anthropocene]{style="color: GhostWhite;"}
+- [Variation in natural populations]{style="color: GhostWhite;"}
+    - [Genetic]{style="color: GhostWhite;"}
+    - [Phenotypic]{style="color: GhostWhite;"}
+- [Conservation genetics and genomic]{style="color: GhostWhite;"}
+- [Conservation of populations]{style="color: GhostWhite;"}
+
+:::
+
+::: {.column width="50%"}
+
+- [Population viability analysis]{style="color: GhostWhite;"}
+- [Conservation and climate change]{style="color: GhostWhite;"}
+- [Conservation economics]{style="color: GhostWhite;"}
+
+:::
+:::
+
+# Conservation Biology
+
+
+## What is *CONSERVATION BIOLOGY* ?
+
+<br/>
+
+. . . 
+
+> Conservation biology is not defined by a discipline, but by its goal. 
+
+<br/>
+
+. . .
+
+> A crisis discipline, providing tools to preserve biodiversity [@Soule1985].
+
+<br/>
+
+. . .
+
+Ecologists, geneticists, zoologists, botanists, microbiologists, evolutionary biologists (etc. etc. etc.) do not stop their job and career.
+
+## Historical perspective
+
+<br/>
+
+A relatively young field of study.
+
+- 1978, First International Conference on Conservation Biology - San Diego Zoo Animal Park (CA, USA)
+- May 8 1985, Society for Conservation Biology (SCB), Ann Arbor (MI, USA)
+- June 1987, First SCB international meeting, Montana State University (MT, USA)
+
+---
+
+<br/>
+<br/>
+
+>The society is a response by professionals, mostly biological and social scientists, managers and administrators to the biological diversity crisis that will reach a crescendo in the first half of the $20^{th}$ century. We assume that we are in time, and that by joining together with each other and with other well-intentioned persons and groups, the worst biological disasters of the last 65 million years can be averted...Although we have varying philosophies, we share a faith in ourselves, as a species and as individuals, that we are equal to the challenge...For these reasons we join together in a professional alliance in the service of each other, but also in the service of the less articulate members of our evolutionary tree. [@Soule1987]
+
+
+------------------------------------------------------------------------
+
+![Data downloaded from WOS. **Type**: Article, Proceeding Paper, Review Article; **Field**: Entomology, Env. Science, Env. Studies, Evol. Biology, Fisheries, Forestry, Oceanography, Ornithology, Biodiversity Conservation, Biology, Plant Sciences, Ecology, Marine Freshwater Biology, Water Resources, Zoology](../figures/class_1_num_of_pubs.png)
+
+## The origins of conservation
+
+For thousands of years humans have *managed* natural resources, but did not spend much time conserving them. Yet, we have always appreciated the importance of preserving and conserving the natural environment. 
+
+::: incremental
+- Plato, through the words of Critia, laments the bad conditions of the land that is no longer productive and rich how it used to be [@Platone].
+- Judaism extended the principle of the Sabbath to agricultural land [@Levitico25].
+- During the Song dynasty (China, 960—1279 AD) it was common practice to set aside  *fengshui* (sacred) portions of the land, mostly forest, to help regulating spiritual and physical power. Modern china forgo this view. 
+:::
+
+. . .
+
+These are all historical examples that the notion (necessity!) to conserve our natural resources is well known and established in our species. Yet, we see to fail when trying to conserve our natural resources.
+
+## Deforestation 
+
+```{r deforestation1, echo = F, fig.cap = "Data downloaded from [https://www.globalforestwatch.org](https://www.globalforestwatch.org) on 2023-02-07", fig.align="center", out.width=1500, out.height=700}
+deforestation <- read.csv("../data/treecover_loss_by_region__ha.csv", header = T)
+
+plot_ly(
+  data = deforestation,
+  x = ~umd_tree_cover_loss__year,
+  y = ~umd_tree_cover_loss__ha,
+  color = ~iso,
+  type = "bar"
+  ) %>% 
+  layout(barmode = "stack", showlegend = FALSE,
+         xaxis = list(title = "Year"),
+         yaxis = list(title = "Tree cover loss (ha)"))
+```
+
+------------------------------------------------------------------------
+
+<br/>
+
+```{r deforestation2, echo = F, fig.cap = "Data downloaded from [https://www.globalforestwatch.org](https://www.globalforestwatch.org) on 2023-02-07", fig.align="center", out.width=1500, out.height=700}
+deforestation %>% 
+  group_by(umd_tree_cover_loss__year) %>%
+  mutate(prop = umd_tree_cover_loss__ha/sum(umd_tree_cover_loss__ha)) %>% 
+  plot_ly(
+    x = ~umd_tree_cover_loss__year,
+    y = ~prop,
+    color = ~iso,
+    type = "bar"
+  ) %>% 
+  layout(barmode = "stack", showlegend = FALSE,
+         xaxis = list(title = "Year"),
+         yaxis = list(title = "Proportion of tree cover loss"))
+```
+
+
+## Fossil fuel consumption 
+
+```{r ffcons, echo = F, fig.cap = "Data downloaded from [https://ourworldindata.org/fossil-fuels](https://ourworldindata.org/fossil-fuels) on 2023-02-07", fig.align="center", out.width=1500, out.height=700}
+ffcons <- read.csv("../data/global-fossil-fuel-consumption.csv", header = T)
+names(ffcons) <- c("Entity", "Code", "Year", "Gas", "Oil", "Coal")
+ffcons_long <- melt(ffcons,                               
+                    id.vars = c("Entity", "Code", "Year"))
+
+ffcons_long %>%
+  plot_ly(
+    x = ~Year, 
+    y = ~value, 
+    color = ~variable,
+    type = 'scatter',
+    mode = 'lines') %>% 
+  layout(xaxis = list(title = "Year"),
+         yaxis = list(title = "TWh"))
+```
+
+
+## The "Ecologically Noble Savage" conundrum
+
+Many have argued that our incapability to conserve is driven by greed. It may be deeper and more complicated than that!
+
+. . .
+
+- It is hard to imagine the evolution of behavioral traits beneficial to a group of individuals if these traits are contrary to the individual's best interest [@Williams1966].
+
+- There is little theoretical justification for expecting individuals to conserve open access resources [@Alvard1993]. 
+
+------------------------------------------------------------------------
+
+![From @Alvard1993](../figures/class_1_fig5fromAlvard1993.png)
+
+------------------------------------------------------------------------
+
+![From @Alvard1993](../figures/class_1_fig6fromAlvard1993.png)
+
+------------------------------------------------------------------------
+
+- People living in relative equilibrium with their environment are NOT necessarily conservationists.
+
+- This view comes from a definition of conservation with an emphasis on its effects rather than on the behavior.
+
+- TRUE conservation only happens when we use resources at less than maximum sustainable!
+
+- Although humans have managed natural resources for millennia they have started to conserve them only as they have embraced their intrinsic value, i.e., that they are good and valuable in and of themselves.
+
+------------------------------------------------------------------------
+
+- Scientifically valid presentation of biological problems that are relevant to the life of modern man [@Ehrenfeld1970]
+
+<br/>
+
+- What actions can we undertake that are good for nature? This is the beginning of conservation and conservation biology in particular! [@VanDyke2020] 
+
+------------------------------------------------------------------------
+
+![Original (**a**) and more modern (**b**) overview of the fields contributing to Conservation Biology. After @Kareiva2012](../figures/class_1_consbio_and_conssciece.jpeg)
+
+------------------------------------------------------------------------
+
+- Conservation as expression of privilege
+- Conservation as right relationship with Nature
+- Conservation as knowledge
+- Conservation as the protection of landscape
+- Conservation as moral mission
+- Conservation as utilitarian purpose
+- Conservation as preservation of culture and livelihood
+
+# Global conservation
+
+------------------------------------------------------------------------
+
+- UN
+- IUCN
+
+
+# References
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
