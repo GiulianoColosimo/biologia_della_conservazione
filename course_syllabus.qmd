@@ -8,14 +8,20 @@ citation_package: biblatex
 citecolor: "red"
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(leaflet)
+```
+
+
 ## General information
 
 This is a course for master level students enrolled in the "Biologia Evoluzionistica, Ecologia e Antropologia Applicata" degree at the University of Rome Tor Vergata. It is worth **6 CFU** for a total of 48 hours to be administered in person (or remotely, depending on the evolution of the pandemic) during the second semester of academic year 2022/2023. Below is the tentative schedule for each class.
 
 
-|          | Day       | Time           | Location                |
-|----------|-----------|----------------|-------------------------|
-| Lectures | Tue & Thu | 09:00 - 11:00  | AULA Centro Studi Pesca |
+|                      | Day       | Time           | Location                |
+|----------------------|-----------|----------------|-------------------------|
+| Lectures             | Tue & Thu | 09:00 - 11:00  | AULA Centro Studi Pesca |
 | Mid term exam - 1    | 18 April 2023       | 09:00 - 11:00 | AULA Centro Studi Pesca |
 | Mid term exam - 2    | 25 May 2023       | 09:00 - 11:00 | AULA Centro Studi Pesca |
 | Final exam           | TBD       | 09:00 - 11:00 | AULA Centro Studi Pesca |
@@ -24,6 +30,14 @@ This is a course for master level students enrolled in the "Biologia Evoluzionis
 ::: callout-important
 Attendance is mandatory!!
 :::
+
+
+```{r aula, echo=FALSE}
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng = 12.62825, lat = 41.85024, popup="AULA Centro Studi Pesca")
+```
+
 
 ## Course language
 
