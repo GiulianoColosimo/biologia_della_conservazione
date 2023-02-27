@@ -16,6 +16,10 @@ This is a course for master level students enrolled in the "Biologia Evoluzionis
 |          | Day       | Time           | Location                |
 |----------|-----------|----------------|-------------------------|
 | Lectures | Tue & Thu | 09:00 - 11:00  | AULA Centro Studi Pesca |
+| Mid term exam - 1    | 18 April 2023       | 09:00 - 11:00 | AULA Centro Studi Pesca |
+| Mid term exam - 2    | 25 May 2023       | 09:00 - 11:00 | AULA Centro Studi Pesca |
+| Final exam           | TBD       | 09:00 - 11:00 | AULA Centro Studi Pesca |
+
 
 ::: callout-important
 Attendance is mandatory!!

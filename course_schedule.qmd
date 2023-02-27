@@ -13,7 +13,7 @@ library(calendR)
 ::: callout-important
 ## Read carefully!
 
-It is a student's responsibility to periodically check this website to make sure he/she has the most updated information about the course schedule.
+It is a student's responsibility to periodically check this website to make sure he/she has the most updated information about the course schedule. The dates for the final exam will be published on this website later during the course of the semester!
 :::
 
 ```{r calendar1, echo=FALSE, message=FALSE, warning=FALSE, eval=T}
@@ -56,8 +56,8 @@ dates <- seq(as.Date("2023-04-01"), as.Date("2023-04-30"), by = "1 day")
 events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
 
 events[c(4, 6, 11, 13, 18, 20, 27)] <- "Classes"
-events[18] <- "1st Mid-term exam"
-events[25] <- "Festivity"
+events[20] <- "1st Mid-term exam"
+events[25] <- "Holiday"
 
 calendR(year = 2023, 
         month = 04, 
@@ -90,8 +90,7 @@ dates <- seq(as.Date("2023-05-01"), as.Date("2023-05-31"), by = "1 day")
 # (with the week starting on Monday)
 events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
 
-events[c(2, 4, 9, 11, 16, 18, 23, 30)] <- "Classes"
-events[25] <- "2nd Mid-term exam"
+events[c(2, 4, 9, 11, 16, 18, 23, 25, 30)] <- "Classes"
 
 calendR(year = 2023, 
         month = 5, 
@@ -99,7 +98,7 @@ calendR(year = 2023,
         title = "Class calendar",
         subtitle = "May 2023",
         special.days = events,
-        special.col = c("gold", "#00AAAE", "gray"),
+        special.col = c("#00AAAE", "gray"),
         low.col = "white",
         legend.pos = "bottom", # Legend position
         legend.title = "",
@@ -117,8 +116,8 @@ dates <- seq(as.Date("2023-06-01"), as.Date("2023-06-30"), by = "1 day")
 # (with the week starting on Monday)
 events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
 
-events[c(1, 5)] <- "Classes"
-#events[29] <- "Exam"
+events[1] <- "Classes"
+events[5] <- "2nd Mid-term exam"
 
 calendR(year = 2023, 
         month = 6, 
@@ -126,7 +125,7 @@ calendR(year = 2023,
         title = "Class calendar",
         subtitle = "June 2023",
         special.days = events,
-        special.col = c("#00AAAE", "gray"),
+        special.col = c("gold", "#00AAAE", "gray"),
         low.col = "white",
         legend.pos = "bottom", # Legend position
         legend.title = "",
