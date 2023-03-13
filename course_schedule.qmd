@@ -2,7 +2,7 @@
 title: "Schedule"
 author: Giuliano Colosimo
 date: "`r Sys.Date()`"
-tbl-colwidths: [5,10,15]
+# tbl-colwidths: [5,10,15]
 ---
 
 ```{r setup, include=FALSE}
