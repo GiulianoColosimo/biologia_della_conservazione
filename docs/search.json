@@ -88,14 +88,14 @@
     "href": "classes/class_2.html#why-should-we-care-about-biodiversity",
     "title": "Biologia della Conservazione",
     "section": "Why should we care about Biodiversity?",
-    "text": "Why should we care about Biodiversity?\n\nA more diverse combination of species (biological community)..\n\n… produces a more productive environment\n… produces a more resistant environment\n… produces a more resilient environment\n… produces more stable ecosystem processes\n\nThe ESA (Ecological Society of America) concluded that maintaining biodiversity is a safeguard against risk resulting from changes in environmental conditions because it extends the productive use of a site’s resources over time and provides an effective way to provide multiple goods and services. (Hooper et al., 2005)\n\n\nBiodiversity is essential for food security and nutrition and offers key options for sustainable livelihoods (Convention on Biological Diversity, https://www.cbd.int).\n\n\n\n\n\nMultifunctional ecosystem require many species. After Duffy (2009)"
+    "text": "Why should we care about Biodiversity?\n\nA more diverse combination of species (biological community)..\n\n… produces a more productive environment\n… produces a more resistant environment\n… produces a more resilient environment\n… produces more stable ecosystem processes\n\nThe ESA (Ecological Society of America) concluded that maintaining biodiversity is a safeguard against risk resulting from changes in environmental conditions because it extends the productive use of a site’s resources over time and provides an effective way to provide multiple goods and services. (Hooper et al., 2005)\n\n\nBiodiversity is essential for food security and nutrition and offers key options for sustainable livelihoods (Convention on Biological Diversity, https://www.cbd.int)."
   },
   {
     "objectID": "classes/class_2.html#what-are-ecosystem-services",
     "href": "classes/class_2.html#what-are-ecosystem-services",
     "title": "Biologia della Conservazione",
     "section": "What are ecosystem services?",
-    "text": "What are ecosystem services?\n\n\n\nProvisioning services\n\nFood\nEnergy\nStructural materials\n\nRegulating services\n\nReduce the severity of environmental events\n\nSupporting services\n\nProvision of physical bodies to be used for essential services\n\nOxygen produced by plants\nSoil to grow crops\n\n\n\n\n\nCultural services\n\nRecreational activities\nIntellectual and spiritual activities\nKnowledge acquisition\n\n\n\n\n\n\n\n\nRoles of host species in the transmission of Lyme disease in the northeastern USA. After Keesing et al. (2010)"
+    "text": "What are ecosystem services?\n\n\n\nProvisioning services\n\nFood\nEnergy\nStructural materials\n\nRegulating services\n\nReduce the severity of environmental events\n\nSupporting services\n\nProvision of physical bodies to be used for essential services\n\nOxygen produced by plants\nSoil to grow crops\n\n\n\n\n\nCultural services\n\nRecreational activities\nIntellectual and spiritual activities\nKnowledge acquisition"
   },
   {
     "objectID": "classes/class_2.html#what-is-biodiversity",
@@ -109,14 +109,14 @@
     "href": "classes/class_2.html#how-to-measure-biodiversity",
     "title": "Biologia della Conservazione",
     "section": "How to measure Biodiversity?",
-    "text": "How to measure Biodiversity?\n\nWe first need to define species.\n\n\n\n\n\n\nNote\n\n\n\nAlthough as an applied concept we can measure it at multiple levels, the most widely used currency to measure and compare biodiversity across sites is SPECIES!\n\n\n\n\n\n\n\n\n\n\n\n\nTypological Species Concept\nEvolutionary Species Concept\nBiological Species Concept\nPhylogenetic Species Concept\n\n\n\n\nGreeks\nDarwin\n(Mayr, 1969)\nDNA based\n\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nThere are at least 26 different species concept used in modern science (Frankham et al., 2012). None of them is immune to drawbacks!\n\n\n\n\nOur results show a marked difference, with surveys based on a phylogenetic species concept showing more species (48%) and an associated decrease in population size and range. We discuss the serious consequences of this trend for conservation, including an apparent change in the number of endangered species, potential political fallout, and the difficulty of deciding what should be conserved. (Agapow et al., 2004)\n\n\nThe concept of Evolutionary Significant Units (ESU) aims at preserving both evolutionary potential and organisms. ESUs are based on criteria that are associated to genetic variation between and within populations (Moritz, 1994).\nManagement Units (MU)\n\n\n\n\n\nCyclura diversity in the West Indies"
+    "text": "How to measure Biodiversity?\nWe first need to define species.\n\n\n\n\n\n\nNote\n\n\nAlthough as an applied concept we can measure it at multiple levels, the most widely used currency to measure and compare biodiversity across sites is SPECIES!\n\n\n\n\n\n\n\n\n\n\n\n\n\nTypological Species Concept\nEvolutionary Species Concept\nBiological Species Concept\nPhylogenetic Species Concept\n\n\n\n\nGreeks\nDarwin\n(Mayr, 1969)\nDNA based\n\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\nThere are at least 26 different species concept used in modern science (Frankham et al., 2012). None of them is immune to drawbacks!"
   },
   {
     "objectID": "classes/class_2.html#alpha-diversity",
     "href": "classes/class_2.html#alpha-diversity",
     "title": "Biologia della Conservazione",
     "section": "Alpha diversity",
-    "text": "Alpha diversity\n\nThe diversity of species within an ecological community\n\n\nSpecies richness and Evennes\n\nThe number of species present on each site\nShannon Index\n\n\\[\nH = - \\sum_i \\ p_i \\ ln(p_i), \\ \\ (i=1, 2, 3,...,s), \\ \\ (0 \\le H^{'}\\le \\infty)\n\\]\n\n\nBeta diversity\n\nWhittaker\n\n\\[\nS/\\alpha-1\n\\]\n\n\nGamma diversity\n\\[\ndS/dD[(g+l)/2]\n\\]"
+    "text": "Alpha diversity\n\nThe diversity of species within an ecological community\n\nSpecies richness and Evennes\n\nThe number of species present on each site\nShannon Index\n\n\\[\nH = - \\sum_i \\ p_i \\ ln(p_i), \\ \\ (i=1, 2, 3,...,s), \\ \\ (0 \\le H^{'}\\le \\infty)\n\\]\nBeta diversity\n\nWhittaker\n\n\\[\nS/\\alpha-1\n\\]\nGamma diversity\n\\[\ndS/dD[(g+l)/2]\n\\]"
   },
   {
     "objectID": "classes/class_3.html",
@@ -130,14 +130,14 @@
     "href": "classes/class_1.html",
     "title": "Biologia della Conservazione",
     "section": "",
-    "text": "This is a course for master level students enrolled in the “Biologia Evoluzionistica, Ecologia e Antropologia Applicata” degree at the University of Rome Tor Vergata. It is worth 6 CFU for a total of 48 hours to be administered in person.\nClasses are on Monday (11:00-13:00) and Thursday (16:00-18:00) in “Aula Pesca” (Laboratori di Ecologia Sperimentale ed Acquacoltura).\nThe course will be thought in Italian unless international students are present. In this latter case the course will be thought in English. All the material and the literature used will be in English.\nCheck the website and your e-mail periodically for information. The website for this class is hosted at www.somethingsomething.com\nNo mandatory textbook. You need to be in class, follow, participate and take notes. I will try to make the class as interactive as possible. I need you to talk to me!!!"
+    "text": "This is a course for master level students enrolled in the “Biologia Evoluzionistica, Ecologia e Antropologia Applicata” degree at the University of Rome Tor Vergata. It is worth 6 CFU for a total of 48 hours to be administered in person.\nClasses are on Tuesday (09:00-11:00) and Thursday (09:00-11:00) in “AULA Centro Studi Pesca” (Laboratori di Ecologia Sperimentale ed Acquacoltura).\nThe course will be thought in Italian unless international students are present. In this latter case the course will be thought in English. All the material and the literature used will be in English.\nCheck the website and your e-mail periodically for information. The website for this class is hosted at https://giulianocolosimo.github.io/biologia_della_conservazione/\nNo mandatory textbook. You need to be in class, follow, participate and take notes. I will try to make the class as interactive as possible. I need you to talk to me!!!"
   },
   {
     "objectID": "classes/class_1.html#course-evaluation",
     "href": "classes/class_1.html#course-evaluation",
     "title": "Biologia della Conservazione",
     "section": "Course evaluation",
-    "text": "Course evaluation\n\nBy the end of the course you should be able to identify, understand, analyse and solve issues related to the conservation of biological diversity, especially at the level of population and species.\nTwo mid term exams (esoneri)! The first mid term will cover the material studied up until the exam date. The second mid term will cover the new material thought after the first mid term. At the end, if you are satisfied with the average of the votes you can keep the grade. If you are not satisfied you can do the final written exam which will cover everything we did in class.\nParticipation to class will count towards your final evaluation!"
+    "text": "Course evaluation\n\nBy the end of the course you should be able to identify, understand, analyse and solve issues related to the conservation of biological diversity, especially at the level of population and species.\nTwo mid term exams (esoneri)! The first mid term will cover the material studied up until the exam date. The second mid term will cover the new material thought after the first mid term. At the end, if you are satisfied with the average of the votes you can keep the grade. If you are not satisfied you can do the final written exam which will cover everything we did in class.\nParticipation to class will count towards your final evaluation!\nI will be communicating the dates of the final exam later during the semester."
   },
   {
     "objectID": "classes/class_1.html#topics",
@@ -151,7 +151,7 @@
     "href": "classes/class_1.html#resources",
     "title": "Biologia della Conservazione",
     "section": "Resources",
-    "text": "Resources\n\nIntroduction to conservation genetics (Frankham, Ballou, & Briscoe, 2010)\nConservation Biology (Dyke & Lamb, 2020)\nConservation and the Genomics of Populations (Allendorf et al., 2022)\nLiterature I will provide every class\nYou are encouraged to contact me by e-mail with questions and doubts or come to my office."
+    "text": "Resources\n\nIntroduction to conservation genetics (Frankham, Ballou, & Briscoe, 2010)\nConservation Biology (Dyke & Lamb, 2020)\nConservation and the Genomics of Populations (Allendorf et al., 2022)\nLiterature I will provide every class\nYou are encouraged to contact me by e-mail with questions and doubts or come to my office. My office hours are between 10:00 and 12:00 every Wednesday. My office is number 14, located on the first floor of the main building at “Laboratori di Ecologia Sperimentale ed Acquacoltura”. If you want to come and see me it is always a good idea to first send me an e-mail at giuliano.colosimo@uniroma2.it."
   },
   {
     "objectID": "classes/class_1.html#topics-1",
@@ -165,21 +165,21 @@
     "href": "classes/class_1.html#what-is-conservation-biology",
     "title": "Biologia della Conservazione",
     "section": "What is CONSERVATION BIOLOGY ?",
-    "text": "What is CONSERVATION BIOLOGY ?\n\n\n\nConservation biology is not defined by a discipline, but by its goal.\n\n\n\n\n\nA crisis discipline, providing tools to preserve biodiversity (Soulé, 1985).\n\n\n\n\nEcologists, geneticists, zoologists, botanists, microbiologists, evolutionary biologists (etc. etc. etc.) do not stop their job and career."
+    "text": "What is CONSERVATION BIOLOGY ?\n\n\n\nConservation biology is not defined by a discipline, but by its goal (Dyke & Lamb, 2020).\n\n\n\n\nEcologists, geneticists, zoologists, botanists, microbiologists, evolutionary biologists, bio-engineers, politicians, (etc. etc. etc.) do not stop their job and career but unite their expertises towards a common goal.\n\n\n\n\nA crisis discipline, providing knowledge and tools to preserve biodiversity. It does not draw all its theory and models from biology (Soulé, 1985)."
   },
   {
     "objectID": "classes/class_1.html#historical-perspective",
     "href": "classes/class_1.html#historical-perspective",
     "title": "Biologia della Conservazione",
     "section": "Historical perspective",
-    "text": "Historical perspective\n\nA relatively young field of study.\n\n1978, First International Conference on Conservation Biology - San Diego Zoo Animal Park (CA, USA)\nMay 8 1985, Society for Conservation Biology (SCB), Ann Arbor (MI, USA)\nJune 1987, First SCB international meeting, Montana State University (MT, USA)\n\n\n \n\nThe society is a response by professionals, mostly biological and social scientists, managers and administrators to the biological diversity crisis that will reach a crescendo in the first half of the \\(20^{th}\\) century. We assume that we are in time, and that by joining together with each other and with other well-intentioned persons and groups, the worst biological disasters of the last 65 million years can be averted…Although we have varying philosophies, we share a faith in ourselves, as a species and as individuals, that we are equal to the challenge…For these reasons we join together in a professional alliance in the service of each other, but also in the service of the less articulate members of our evolutionary tree. (Soulé, 1987)\n\n\n\n\n\nData downloaded from WOS. Type: Article, Proceeding Paper, Review Article; Field: Entomology, Env. Science, Env. Studies, Evol. Biology, Fisheries, Forestry, Oceanography, Ornithology, Biodiversity Conservation, Biology, Plant Sciences, Ecology, Marine Freshwater Biology, Water Resources, Zoology"
+    "text": "Historical perspective\n\n1978, First International Conference on Conservation Biology - San Diego Zoo Animal Park (CA, USA)\nMay 8 1985, Society for Conservation Biology (SCB), Ann Arbor (MI, USA)\nJune 1987, First SCB international meeting, Montana State University (MT, USA)\n\n\n\n\nAfter Nicholls (2011)\n\n\n\n \n\nThe society is a response by professionals, mostly biological and social scientists, managers and administrators to the biological diversity crisis that will reach a crescendo in the first half of the \\(21^{th}\\) century. We assume that we are in time, and that by joining together with each other and with other well-intentioned persons and groups, the worst biological disasters of the last 65 million years can be averted…Although we have varying philosophies, we share a faith in ourselves, as a species and as individuals, that we are equal to the challenge…For these reasons we join together in a professional alliance in the service of each other, but also in the service of the less articulate members of our evolutionary tree. (Soulé, 1987)\n\n\n\n\n\nData downloaded from WOS. Type: Article, Proceeding Paper, Review Article; Field: Entomology, Env. Science, Env. Studies, Evol. Biology, Fisheries, Forestry, Oceanography, Ornithology, Biodiversity Conservation, Biology, Plant Sciences, Ecology, Marine Freshwater Biology, Water Resources, Zoology"
   },
   {
     "objectID": "classes/class_1.html#the-origins-of-conservation",
     "href": "classes/class_1.html#the-origins-of-conservation",
     "title": "Biologia della Conservazione",
-    "section": "The origins of conservation",
-    "text": "The origins of conservation\nFor thousands of years humans have managed natural resources, but did not spend much time conserving them. Yet, we have always appreciated the importance of preserving and conserving the natural environment.\n\n\nPlato, through the words of Critia, laments the bad conditions of the land that is no longer productive and rich how it used to be (“Crizia,” n.d.).\nJudaism extended the principle of the Sabbath to agricultural land (“La Bibbia—Leviticus 25:4—5,” n.d.).\nDuring the Song dynasty (China, 960—1279 AD) it was common practice to set aside fengshui (sacred) portions of the land, mostly forest, to help regulating spiritual and physical power. Modern china forgo this view.\n\n\n\nThese are all historical examples that the notion (necessity!) to conserve our natural resources is well known and established in our species. Yet, we see to fail when trying to conserve our natural resources."
+    "section": "The origins of CONSERVATION",
+    "text": "The origins of CONSERVATION\nFor thousands of years humans have managed natural resources, but did not spend much time conserving them. Yet, humans have always appreciated the importance of conserving the natural environment.\n\n\nPlato, through the words of Critia, laments the bad conditions of the land that is no longer productive and rich how it used to be (“Crizia,” n.d.).\nJudaism extended the principle of the Sabbath to agricultural land (“La Bibbia—Leviticus 25:4—5,” n.d.).\nDuring the Song dynasty (China, 960—1279 AD) it was common practice to set aside fengshui (sacred) portions of the land, mostly forest, to help regulating spiritual and physical power. Modern china forgo this view.\n\n\n\nThese are all historical examples showing that the notion to conserve our natural resources is well known and established in our species. And yet, we continuously seem to fail at conserving them."
   },
   {
     "objectID": "classes/class_1.html#deforestation",
@@ -200,7 +200,7 @@
     "href": "classes/class_1.html#the-ecologically-noble-savage-conundrum",
     "title": "Biologia della Conservazione",
     "section": "The “Ecologically Noble Savage” conundrum",
-    "text": "The “Ecologically Noble Savage” conundrum\nMany have argued that our incapability to conserve is driven by greed. It may be deeper and more complicated than that!\n\n\nIt is hard to imagine the evolution of behavioral traits beneficial to a group of individuals if these traits are contrary to the individual’s best interest (Williams, 1966).\nThere is little theoretical justification for expecting individuals to conserve open access resources (Alvard, 1993).\n\n\n\n\n\nFrom Alvard (1993)\n\n\n\n\n\n\nFrom Alvard (1993)\n\n\n\n\nPeople living in relative equilibrium with their environment are NOT necessarily conservationists.\nThis view comes from a definition of conservation with an emphasis on its effects rather than on the behavior.\nTRUE conservation only happens when we use resources at less than maximum sustainable!\nAlthough humans have managed natural resources for millennia they have started to conserve them only as they have embraced their intrinsic value, i.e., that they are good and valuable in and of themselves.\n\n\n\nScientifically valid presentation of biological problems that are relevant to the life of modern man (Ehrenfeld, 1970)\n\n\n\nWhat actions can we undertake that are good for nature? This is the beginning of conservation and conservation biology in particular! (Dyke & Lamb, 2020)\n\n\n\n\n\nOriginal (a) and more modern (b) overview of the fields contributing to Conservation Biology. After Kareiva & Marvier (2012)\n\n\n\n\nConservation as expression of privilege\nConservation as right relationship with Nature\nConservation as knowledge\nConservation as the protection of landscape\nConservation as moral mission\nConservation as utilitarian purpose\nConservation as preservation of culture and livelihood"
+    "text": "The “Ecologically Noble Savage” conundrum\n\nMany have argued that our incapability to conserve is driven by greed. It may be deeper and more complicated than that!\n\n\n\n\nAre indigenous people really better than the industrialized civilization at conserving nature? Can we learn from them how to conserve it?\n\nMany of the misconceptions concerning the apparent conservation proclivities of traditional peoples are a result of an imprecise understanding of what constitutes conservation (Alvard, 1993).\n\n\nIt is hard to imagine the evolution of behavioral traits beneficial to a group of individuals if these traits are contrary to the individual’s best interest (Williams, 1966).\n\n\nThere is little theoretical justification for expecting individuals to conserve open access resources (Alvard, 1993).\n\nA small group of individuals living in an abundant and productive environment can easily manage their resources in a sustainable way! For example, in a place with great abundance of prey, hunters can even be wasteful in their hunting, and yet cause little to no damage to the environment."
   },
   {
     "objectID": "classes/class_1_tex.html",
@@ -221,6 +221,48 @@
     "href": "course_syllabus.html#meeting-hours",
     "title": "Syllabus",
     "section": "Meeting hours",
-    "text": "Meeting hours\nEach student is welcome and encouraged to contact me by e-mail with questions and doubts. My office hours are between 10:00 and 12:00 every Wednesday. My office is number 14, located on the first floor of the main building at “Laboratori di Ecologia Sperimentale ed Acquacoltura”.\n\n\n\n\n\n\nTip\n\n\n\nIt is always a good idea to e-mail me before coming to the office, to prevent overcrowding."
+    "text": "Meeting hours\nEach student is welcome and encouraged to contact me by e-mail with questions and doubts. My office hours are between 10:00 and 12:00 every Wednesday. My office is number 14, located on the first floor of the main building at “Laboratori di Ecologia Sperimentale ed Acquacoltura”.\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nIt is always a good idea to e-mail me before coming to the office, to prevent overcrowding."
+  },
+  {
+    "objectID": "classes/class_1.html#course-overview",
+    "href": "classes/class_1.html#course-overview",
+    "title": "Biologia della Conservazione",
+    "section": "Course overview",
+    "text": "Course overview\n\nThis is a course for master level students enrolled in the “Biologia Evoluzionistica, Ecologia e Antropologia Applicata” degree at the University of Rome Tor Vergata. It is worth 6 CFU for a total of 48 hours to be administered in person.\nClasses are on Tuesday (09:00-11:00) and Thursday (09:00-11:00) in “AULA Centro Studi Pesca” (Laboratori di Ecologia Sperimentale ed Acquacoltura).\nThe course will be thought in Italian unless international students are present. In this latter case the course will be thought in English. All the material and the literature used will be in English.\nCheck the website and your e-mail periodically for information. The website for this class is hosted at https://giulianocolosimo.github.io/biologia_della_conservazione/\nNo mandatory textbook. You need to be in class, follow, participate and take notes. I will try to make the class as interactive as possible. I need you to talk to me!!!"
+  },
+  {
+    "objectID": "classes/class_1.html#take-home-messages-from-alvard-1993",
+    "href": "classes/class_1.html#take-home-messages-from-alvard-1993",
+    "title": "Biologia della Conservazione",
+    "section": "Take home messages from Alvard (1993)",
+    "text": "Take home messages from Alvard (1993)\n\n\nThe prey items that are always pursued by Piro shotgun hunters closely match those predicted by foraging theory. These are large, high ranked animals in the optimal die\nPeople living in relative equilibrium with their environment are NOT necessarily conservationists.\nThis view comes from a definition of conservation with an emphasis on its effects rather than on the behavior.\nTRUE conservation only happens when we use resources at less than maximum sustainable!\nAlthough humans have managed natural resources for millennia they have started to conserve them only as they have embraced their intrinsic value, i.e., that they are good and valuable in and of themselves."
+  },
+  {
+    "objectID": "classes/class_1.html#core-merits-of-conservation-biology",
+    "href": "classes/class_1.html#core-merits-of-conservation-biology",
+    "title": "Biologia della Conservazione",
+    "section": "Core merits of conservation biology",
+    "text": "Core merits of conservation biology\n\n\n\n\n\n\n\nMerit\nConservation biology…\n\n\n\n\nBasis in preserving biodiversity.\n…focuses on preserving and conserving biodiversity rather than managing individual species.\n\n\nValue laden and value driven.\n…is committed to valuing biodiversity, regardless of its utilitarian value.\n\n\nMission- and advocacy- oriented.\n…emphasizes intentions and actions to save species and habitats.\n\n\nCrisis-oriented.\n…requires rapid investigation and response even before risk or replication studies can be performed.\n\n\nIntegrative and multidisciplinary.\n…synthesizes information across disciplines (biology, ecology, ethics, politics, and others).\n\n\n\n\n\n\n\n\n\n\n\n\n(continued)\n\n\n\n\nConcerned with evolutionary times.\n…seeks preservation of genetic information and processes that promote speciation for future biodiversity, not just conservation for present organisms.\n\n\nAdaptive.\n…treats management options as experimental and imprecise, where outcomes may be risky or unpredictable.\n\n\n\nAfter Dyke & Lamb (2020)"
+  },
+  {
+    "objectID": "classes/class_1.html#defining-conservation-from-the-standpoint-of-foraging-theory.",
+    "href": "classes/class_1.html#defining-conservation-from-the-standpoint-of-foraging-theory.",
+    "title": "Biologia della Conservazione",
+    "section": "Defining conservation from the standpoint of foraging theory.",
+    "text": "Defining conservation from the standpoint of foraging theory.\n\nObtaining the highest quantity of food is expected to augment fertility and survivorship and to allow engaging in other fitness enhancing activities. Individuals that follow this strategy are defined: rate-maximizers.\nNon rate-maximizers will be selected against by natural selection.\n\n\n\n\n\n\n\n\nQuestion!\n\n\n\nBased on the premises described above, can you think of a scenario in which a conservation strategy/behavior could evolve?\n\n\n\n\n\n\n\n\n\n\nOne possible answer..\n\n\n\nConservation as a selfish strategy could evolve if the short term advantages guarantees a long-term pay off for the individual involved.\n\n\n\n\nConservation should not be defined based on the effect of a certain behavior. Rather, we can here define conservation based on foraging theory as a specific restrain behavior that endures a cost in the present to have a benefit in the long run (Alvard, 1993).\n\n\n\n\nNo restraints in foraging behavior means no conservation, even if the behavior produces a sustainable outcome!\n\n\n\n\n\n\n\n\n\nWorking hypotheses\n\n\n\n\nNative people are conservationists!\nNative people will over-exploit resources whenever it is to their advantage to do so!\n\n\n\n\n\n\nEvidence for conservation would consist of hunters forgoing opportunities to kill vulnerable species that are nonetheless predicted by foraging theory to be pursued.\n\n\n\n\n\nFrom Alvard (1993)\n\n\n\n\n\n\nFrom Alvard (1993)"
+  },
+  {
+    "objectID": "classes/class_2.html#topics",
+    "href": "classes/class_2.html#topics",
+    "title": "Biologia della Conservazione",
+    "section": "Topics",
+    "text": "Topics\n\n\n\nConservation biology\nBiodiversity\nBiodiversity through time\n\nExtinctions and the anthropocene\n\nVariation in natural populations\n\nGenetic\nPhenotypic\n\nConservation genetics and genomic\nConservation of populations\n\n\n\nPopulation viability analysis\nConservation and climate change\nConservation economics"
+  },
+  {
+    "objectID": "course_syllabus.html#diversity-equity-and-inclusion",
+    "href": "course_syllabus.html#diversity-equity-and-inclusion",
+    "title": "Syllabus",
+    "section": "Diversity, Equity, and Inclusion",
+    "text": "Diversity, Equity, and Inclusion\nThe success of this class depends on all of us creating a safe environment where students feel comfortable sharing their thoughts and opinions. We should all strive to be respectful and supportive of one another during class discussions. Conservation biology is an evolving field and is made better by the contribution of diverse perspectives, and I hope that our class conversations can reflect that."
   }
 ]
