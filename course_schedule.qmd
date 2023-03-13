@@ -1,8 +1,8 @@
 ---
 title: "Schedule"
 author: Giuliano Colosimo
-date: "`r Sys.Date()`"
-# tbl-colwidths: [5,10,15]
+date: "2023-03-13"
+tbl-colwidths: [5,10,15]
 ---
 
 ```{r setup, include=FALSE}
