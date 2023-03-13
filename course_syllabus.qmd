@@ -73,6 +73,14 @@ There will be 2 mid-term exams (see schedule page for the dates). All students h
 
 Each student is welcome and encouraged to contact me by e-mail with questions and doubts. My office hours are between 10:00 and 12:00 every Wednesday. My office is number 14, located on the first floor of the main building at "Laboratori di Ecologia Sperimentale ed Acquacoltura". 
 
+
+```{r ufficio, echo=FALSE}
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng = 12.6298, lat = 41.85021, popup="Office 14 is located on the first floor of this building")
+```
+
+
 ::: callout-tip
 It is always a good idea to e-mail me before coming to the office, to prevent overcrowding.
 :::
@@ -80,5 +88,9 @@ It is always a good idea to e-mail me before coming to the office, to prevent ov
 ## Students with disabilities
 
 Please, let me know if you require special accommodations to follow this class.
+
+## Diversity, Equity, and Inclusion
+
+The success of this class depends on all of us creating a safe environment where students feel comfortable sharing their thoughts and opinions. We should all strive to be respectful and supportive of one another during class discussions. Conservation biology is an evolving field and is made better by the contribution of diverse perspectives, and I hope that our class conversations can reflect that.
 
 # References
