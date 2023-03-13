@@ -40,8 +40,8 @@ website:
       - section: "Classes"
         title: "Classes"
         contents: 
-          #- href: ./classes/class_1.html
-          #  text: "Class 1"
+          - href: ./classes/class_1.html
+            text: "Class 1 - Introduction to conservation biology"
           #- href: ./classes/class_2.html
           #  text: "Class 2"
 

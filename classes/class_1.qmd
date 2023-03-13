@@ -2,7 +2,7 @@
 title: "Biologia della Conservazione"
 subtitle: "Class 1 - Introduction to conservation biology"
 # author: "Dr. Giuliano Colosimo"
-footer:  "Dr. Giuliano Colosimo"
+footer:  "[Biologia della conservazione - Dr. Giuliano Colosimo](https://giulianocolosimo.github.io/biologia_della_conservazione/)"
 logo: ../figures/Tor-Vergata_logo_cmyk.png
 format: 
   revealjs:
@@ -40,7 +40,7 @@ library("DiagrammeR")
 
 -   This is a course for master level students enrolled in the "Biologia Evoluzionistica, Ecologia e Antropologia Applicata" degree at the University of Rome Tor Vergata. It is worth 6 CFU for a total of 48 hours (24 lessons) to be administered in person.
 
--   Classes are on Tuesday (09:00-11:00) and Thursday (09:00-11:00) in "AULA Centro Studi Pesca" (Laboratori di Ecologia Sperimentale ed Acquacoltura).
+-   Classes are on Tuesday (09:00-11:00) and Thursday (09:00-11:00) in "Aula Centro Studi Pesca" (Laboratori di Ecologia Sperimentale ed Acquacoltura).
 
 -   The course will be thought in Italian unless international students are present. In this latter case the course will be thought in English. All the material and the literature used will be in English.
 

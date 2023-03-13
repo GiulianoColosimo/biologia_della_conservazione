@@ -21,10 +21,10 @@ This is a course for master level students enrolled in the "Biologia Evoluzionis
 
 |                      | Day       | Time           | Location                |
 |----------------------|-----------|----------------|-------------------------|
-| Lectures             | Tue & Thu | 09:00 - 11:00  | AULA Centro Studi Pesca |
-| Mid term exam - 1    | 18 April 2023       | 09:00 - 11:00 | AULA Centro Studi Pesca |
-| Mid term exam - 2    | 25 May 2023       | 09:00 - 11:00 | AULA Centro Studi Pesca |
-| Final exam           | TBD       | 09:00 - 11:00 | AULA Centro Studi Pesca |
+| Lectures             | Tue & Thu | 09:00 - 11:00  | Aula centro studi pesca |
+| Mid term exam - 1    | 20 April 2023       | 09:00 - 11:00 | Aula centro studi pesca |
+| Mid term exam - 2    | 5 June 2023       | 09:00 - 11:00 | Aula centro studi pesca |
+| Final exam           | TBD       | 09:00 - 11:00 | Aula centro studi pesca |
 
 
 ::: callout-important
@@ -35,7 +35,7 @@ Attendance is mandatory!!
 ```{r aula, echo=FALSE}
 leaflet() %>%
   addTiles() %>%  # Add default OpenStreetMap map tiles
-  addMarkers(lng = 12.62825, lat = 41.85024, popup="AULA Centro Studi Pesca")
+  addMarkers(lng = 12.62825, lat = 41.85024, popup="Aula centro studi pesca")
 ```
 
 
@@ -64,6 +64,41 @@ If you are interested in buying something to deepen your studies some good books
 The course aims at providing students with an overview of the problems, techniques of analysis and identification of solutions related to conservation of Biodiversity, especially at the level of population and species. By discussing the genetic basis of adaptation, the relationship between population size and evolutionary potential, and population biology, the student develops autonomy in the process of understanding of different approaches and methods, consolidating the awareness that conservation biology is a crisis discipline that requires specific analytical skills to guide appropriate interventions.
 
 Students will develop professional language and communication skills through a continuous interaction with the teacher and interventions during classes. Additionally, students are guided in the understanding of the discipline through the access to primary literature in English. The process of development such skills is monitored by written periodical checks, with open questions.
+
+## Outline of topics
+
+::: columns
+::: {.column width="50%"}
+1.   Introduction to conservation biology
+2.   Biodiversity
+3.   Biodiversity and extinctions
+4.   Basics of conservation genetics
+5.   Population size
+6.   Genetic drift
+7.   Inbreeding depression 
+8.   Population structure
+9.   Hybridization
+10.  Population viability analysis
+:::
+
+::: {.column width="50%"}
+11.   Invasive species
+12.   Managing genetic diversity in the wild
+13.   Managing genetic diversity in captive populations
+14.   Applying genetic information to conservation
+15.   Conservation and climate change
+16.   Future climate impacts
+17.   Conservation economics
+18.   Conservation technology
+:::
+:::
+
+
+::: callout-note
+Please note that this list may be subject to change and updates! We will cover each of these topics and there will also be one or two seminars presented by invited speakers. 
+:::
+
+
 
 ## Class evaluation
 

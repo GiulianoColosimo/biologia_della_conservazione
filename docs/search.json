@@ -11,7 +11,7 @@
     "href": "course_syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "This is a course for master level students enrolled in the “Biologia Evoluzionistica, Ecologia e Antropologia Applicata” degree at the University of Rome Tor Vergata. It is worth 6 CFU for a total of 48 hours to be administered in person (or remotely, depending on the evolution of the pandemic) during the second semester of academic year 2022/2023. Below is the tentative schedule for each class.\n\n\n\n\n\n\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nLectures\nTue & Thu\n09:00 - 11:00\nAULA Centro Studi Pesca\n\n\nMid term exam - 1\n18 April 2023\n09:00 - 11:00\nAULA Centro Studi Pesca\n\n\nMid term exam - 2\n25 May 2023\n09:00 - 11:00\nAULA Centro Studi Pesca\n\n\nFinal exam\nTBD\n09:00 - 11:00\nAULA Centro Studi Pesca\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nAttendance is mandatory!!"
+    "text": "This is a course for master level students enrolled in the “Biologia Evoluzionistica, Ecologia e Antropologia Applicata” degree at the University of Rome Tor Vergata. It is worth 6 CFU for a total of 48 hours to be administered in person (or remotely, depending on the evolution of the pandemic) during the second semester of academic year 2022/2023. Below is the tentative schedule for each class.\n\n\n\n\n\n\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nLectures\nTue & Thu\n09:00 - 11:00\nAula centro studi pesca\n\n\nMid term exam - 1\n20 April 2023\n09:00 - 11:00\nAula centro studi pesca\n\n\nMid term exam - 2\n5 June 2023\n09:00 - 11:00\nAula centro studi pesca\n\n\nFinal exam\nTBD\n09:00 - 11:00\nAula centro studi pesca\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nAttendance is mandatory!!"
   },
   {
     "objectID": "course_syllabus.html#course-language",
@@ -130,7 +130,7 @@
     "href": "classes/class_1.html",
     "title": "Biologia della Conservazione",
     "section": "",
-    "text": "This is a course for master level students enrolled in the “Biologia Evoluzionistica, Ecologia e Antropologia Applicata” degree at the University of Rome Tor Vergata. It is worth 6 CFU for a total of 48 hours to be administered in person.\nClasses are on Tuesday (09:00-11:00) and Thursday (09:00-11:00) in “AULA Centro Studi Pesca” (Laboratori di Ecologia Sperimentale ed Acquacoltura).\nThe course will be thought in Italian unless international students are present. In this latter case the course will be thought in English. All the material and the literature used will be in English.\nCheck the website and your e-mail periodically for information. The website for this class is hosted at https://giulianocolosimo.github.io/biologia_della_conservazione/\nNo mandatory textbook. You need to be in class, follow, participate and take notes. I will try to make the class as interactive as possible. I need you to talk to me!!!"
+    "text": "This is a course for master level students enrolled in the “Biologia Evoluzionistica, Ecologia e Antropologia Applicata” degree at the University of Rome Tor Vergata. It is worth 6 CFU for a total of 48 hours (24 lessons) to be administered in person.\nClasses are on Tuesday (09:00-11:00) and Thursday (09:00-11:00) in “Aula Centro Studi Pesca” (Laboratori di Ecologia Sperimentale ed Acquacoltura).\nThe course will be thought in Italian unless international students are present. In this latter case the course will be thought in English. All the material and the literature used will be in English.\nCheck the website and your e-mail periodically for information. The website for this class is hosted at https://giulianocolosimo.github.io/biologia_della_conservazione/\nNo mandatory textbook. You need to be in class, follow, participate and take notes. I will try to make the class as interactive as possible. I need you to talk to me!!!"
   },
   {
     "objectID": "classes/class_1.html#course-evaluation",
@@ -228,7 +228,7 @@
     "href": "classes/class_1.html#course-overview",
     "title": "Biologia della Conservazione",
     "section": "Course overview",
-    "text": "Course overview\n\nThis is a course for master level students enrolled in the “Biologia Evoluzionistica, Ecologia e Antropologia Applicata” degree at the University of Rome Tor Vergata. It is worth 6 CFU for a total of 48 hours (24 lessons) to be administered in person.\nClasses are on Tuesday (09:00-11:00) and Thursday (09:00-11:00) in “AULA Centro Studi Pesca” (Laboratori di Ecologia Sperimentale ed Acquacoltura).\nThe course will be thought in Italian unless international students are present. In this latter case the course will be thought in English. All the material and the literature used will be in English.\nCheck the website and your e-mail periodically for information. The website for this class is hosted at https://giulianocolosimo.github.io/biologia_della_conservazione/\nNo mandatory textbook. You need to be in class, follow, participate and take notes. I will try to make the class as interactive as possible. I need you to talk to me!!!"
+    "text": "Course overview\n\nThis is a course for master level students enrolled in the “Biologia Evoluzionistica, Ecologia e Antropologia Applicata” degree at the University of Rome Tor Vergata. It is worth 6 CFU for a total of 48 hours (24 lessons) to be administered in person.\nClasses are on Tuesday (09:00-11:00) and Thursday (09:00-11:00) in “Aula Centro Studi Pesca” (Laboratori di Ecologia Sperimentale ed Acquacoltura).\nThe course will be thought in Italian unless international students are present. In this latter case the course will be thought in English. All the material and the literature used will be in English.\nCheck the website and your e-mail periodically for information. The website for this class is hosted at https://giulianocolosimo.github.io/biologia_della_conservazione/\nNo mandatory textbook. You need to be in class, follow, participate and take notes. I will try to make the class as interactive as possible. I need you to talk to me!!!"
   },
   {
     "objectID": "classes/class_1.html#take-home-messages-from-alvard-1993",
@@ -285,5 +285,12 @@
     "title": "Biologia della Conservazione",
     "section": "Articles to read for next class",
     "text": "Articles to read for next class\n\nSoulè_What is conservation biology?_1985\nKareiva_What is conservation science?_2012"
+  },
+  {
+    "objectID": "course_syllabus.html#outline-of-topics",
+    "href": "course_syllabus.html#outline-of-topics",
+    "title": "Syllabus",
+    "section": "Outline of topics",
+    "text": "Outline of topics\n\n\n\nIntroduction to conservation biology\nBiodiversity\nBiodiversity and extinctions\nBasics of conservation genetics\nPopulation size\nGenetic drift\nInbreeding depression\nPopulation structure\nHybridization\nPopulation viability analysis\n\n\n\nInvasive species\nManaging genetic diversity in the wild\nManaging genetic diversity in captive populations\nApplying genetic information to conservation\nConservation and climate change\nFuture climate impacts\nConservation economics\nConservation technology\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPlease note that this list may be subject to change and updates! We will cover each of these topics and there will also be one or two seminars presented by invited speakers."
   }
 ]
